@@ -1,2 +1,2 @@
-#!/ban/bash
+#!/bin/bash
 in -s /bin/ls _ls_
