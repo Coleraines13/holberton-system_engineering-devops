@@ -1,2 +1,2 @@
 #!/bin/bash
-rmdir -p /tmp/6-firstdirectory
+rm /tmp/my_first_directory/betty
