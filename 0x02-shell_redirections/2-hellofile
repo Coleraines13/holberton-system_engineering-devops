@@ -1,2 +1,2 @@
 #!/bin/bash
-vst /etc/passwd
+cat /etc/passwd
