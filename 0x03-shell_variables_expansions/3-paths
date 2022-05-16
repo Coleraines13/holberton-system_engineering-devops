@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n:/Path
+find . -type f | wc -1
