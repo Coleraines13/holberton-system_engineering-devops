@@ -8,6 +8,7 @@ do
 		echo "Fizz"
 	elif [ $((i % 5)) -eq 0 ]; then
 		echo "Buzz"
-	else echo "$i"
+	else 
+		echo "$i"
 	fi
 done
