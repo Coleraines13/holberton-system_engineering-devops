@@ -1,23 +1,20 @@
 #!/usr/bin/env bash
-# This script gives info about the school file such as
-# if the file school exists or if it does not exist and print acordingly
-# or if school file is empty or not and make sure its a regular file it will print accordingly
+# This script give info on the fuile school wether it has contents and if its a direcotry or not
+file="school"
 
-FILE=school
-if [ -e $FILE ];then
-	    echo "$FILE file exists"
+if [ -e "$file" ]; then
+    echo "$file file exists"
 
-	        if [ -s $FILE ]; then
-				echo "$FILE file is not empty"
-				    else
-					    	echo "$FILE file is empty"
-						    fi
+    if [ -s "$file" ]; then
+	echo "$file file is not empty"
+    else
+	echo "$file file is empty"
+    fi
 
-						        if [ -f $FILE ]; then
-									echo "$FILE file is a regular file"
-									    fi
+    if [ -f "$file" ]; then
+	echo "$file is a regular file"
+    fi
 
-								    else
-									        echo "$FILE file does not exist"
-
+else
+    echo "$file file does not exist"
 fi
