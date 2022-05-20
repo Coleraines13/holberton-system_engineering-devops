@@ -10,7 +10,7 @@ do
 	m=1
 	while [ "$m" -le 59 ]
 	do
-		echo "&m"
+		echo "$m"
 		(( m++ ))
 	done
 done
