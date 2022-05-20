@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script lists the content of the current directory without the initial #- in filenames
 
-file="$(ls)"
+files="$(ls)"
 for f in $files;
 do
 	echo "$f" | cut -d "_" -f2
