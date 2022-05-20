@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This script give info on the fuile school wether it has contents and if its a direcotry or not
+# This script give info on the fuile school wether it has contents and if its a directory or not
+
 file="school"
 
 if [ -e "$file" ]; then
@@ -17,4 +18,5 @@ if [ -e "$file" ]; then
 
 else
     echo "$file file does not exist"
+
 fi
