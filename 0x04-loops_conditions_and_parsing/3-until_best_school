@@ -4,4 +4,4 @@ i=0
 until [ $i -ge 10 ]; do
     echo "Best School"
     let i+=1
-	done
+done
