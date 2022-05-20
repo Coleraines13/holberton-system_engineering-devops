@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 until false
 do
-echo 10 "Best School" 
+echo 10 "Best School"
+done
