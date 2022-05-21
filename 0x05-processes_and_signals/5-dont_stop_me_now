@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script will kill 4 with oout prejiduce
+
+kill "$(ps -x | pgrep -f beyond)"
