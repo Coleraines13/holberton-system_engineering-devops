@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script also kills without prejidice
+
+pkill -f beyond
