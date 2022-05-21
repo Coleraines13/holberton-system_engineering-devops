@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script will display a statement indefinatly
+
+while true; do
+echo "to infinity and beyond"
+sleep 2
+done
